@@ -30,11 +30,11 @@ git clone https://github.com/flowerfine/scaleph.git --depth 1
 
 # 一键启动 scaleph 及其依赖
 cd scaleph/tools/docker/deploy/scaleph
-docker compose up -d
+docker compose-up -d
 
 # 如网络不好，可以先 pull 镜像，稍后启动
 docker compose pull
-docker compose up -d
+docker compose-up -d
 
 # 关闭 scaleph
 docker compose down
